@@ -263,7 +263,7 @@ New breakpoints:
 Breakpoint 6: where = UIKitCore`-[UIViewController viewDidLoad], address = 0x00007fff23f3c10d
 ```
 
-## breakpoint를 수정하거나 삭제하거나 비활성화하거나 활성화
+## breakpoint 관리
 
 ### breakpoint 보기
 
