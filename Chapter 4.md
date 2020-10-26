@@ -7,7 +7,7 @@
 
 ### Xcode breakpoints
 
-![1](image/1.png)
+![1](images/1.png)
 
 `-[NSObject init]`이 될 때마다 Action 실행
 
@@ -21,7 +21,7 @@ _UIEventEnvironmentClearTouchesContext
 NSISEngine
 ```
 
-![2](image/2.png)
+![2](images/2.png)
 
 `(lldb) image lookup -n "-[UIViewController viewDidLoad]"`
 
@@ -38,7 +38,7 @@ This command dumps the implementation address (the offset address of where this 
         Summary: UIKitCore`-[UIViewController viewDidLoad]
 ```
 
-![3](image/3.png)
+![3](images/3.png)
 
 `(lldb) image lookup -rn test`
 
@@ -52,7 +52,7 @@ test라는 image를 표시
 
 Action에 등록 안하고도, 콘솔창에서 직접 명령어 입력도 가능!
 
-![4](4.png)
+![4](images/4.png)
 
 ### Objective-C properties
 
