@@ -8,7 +8,7 @@ lldb가 실행되면, lldb는 여러 directories를 검색해서 init 파일을 
 
 lldb는 아래와 같은 규칙으로 init 파일을 찾는다.
 
-1. `~/.lldbinit-[context]` : Terminal에서 lldb를 실행하면 `~/.lldbinit-lldb`, Xcode라면 `~/.lldbinit-lldb-Xcode`.
+1. `~/.lldbinit-[context]` : Terminal에서 lldb를 실행하면 `~/.lldbinit-lldb`, Xcode라면 `~/.lldbinit-Xcode`.
 2. `~/.lldbinit`
 3. `/`
 
