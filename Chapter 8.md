@@ -36,7 +36,7 @@ UnixSignalHandler의 메모리 위치는 0x0000600002791440 이므로
 (long) $0 = 0x0000600002791460
 ```
 
-0x000060000189f620이 `_shouldEnableSignalHandling`의 주소임을 알 수 있다. 이제 이 ivar를 watchpoint 해보자.
+0x0000600002791460이 `_shouldEnableSignalHandling`의 주소임을 알 수 있다. 이제 이 ivar를 watchpoint 해보자.
 
 ```
 (lldb) watchpoint set expression -s 1 -w write -- 0x0000600002791460
