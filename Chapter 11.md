@@ -259,7 +259,7 @@ iPhone 12 Pro Max (C9681D6B-D68C-420D-804B-0D328217E877) (Shutdown)
 $ open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID C9681D6B-D68C-420D-804B-0D328217E877
 ```
 
-실행되면 `SpringBoard`에 attach 할 수 있다고 하는데... 내가 SIP를 꺼서 그런지 오류가 난다.
+실행되면 `SpringBoard`에 attach 할 수 있다고 하는데... 내가 SIP를 켜서 그런지 오류가 난다.
 
 ```bash
 $ lldb -n SpringBoard
