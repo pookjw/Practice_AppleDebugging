@@ -53,7 +53,6 @@ objc_msgSend(UIApplicationClass, "sharedApplication");
 
 ```objective-c
 NSString *helloWorldString = [@"Can't Sleep; " stringByAppendingString:@"Clowns will eat me"];
-helloWorldString = objc_msgSend(@"")
 ```
 
 컴파일러는 아래와 같은 코드를 생성한다.
