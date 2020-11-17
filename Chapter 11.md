@@ -218,7 +218,7 @@ General Purpose Registers:
         gs = 0
 ```
 
-`rdi`, `rsi`, `rdx`, `rcx`, `r8`, `r9` 이렇게 6개의 argument만 있는걸 볼 수 있다. 하나의 stack에는 6개의 argument만 들어올 수 있고, 다른 stack에 저장한다고 한다.
+`rdi`, `rsi`, `rdx`, `rcx`, `r8`, `r9` 이렇게 6개의 argument만 있는걸 볼 수 있다. 6개가 넘어가면 stack에 저장한다고 한다.
 
 ### Registers 연습 - return register
 
